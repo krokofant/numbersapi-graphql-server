@@ -14,7 +14,6 @@ async function fetchNumber(number, type) {
 var typeDefs = [
   `
 type Query {
-  hello: String
   number(number: Int!, type: String): Number
 }
 
