@@ -1,0 +1,14 @@
+type Query {
+  number(number: Int!, type: String): Number
+}
+
+type Number {
+  trivia: String
+  math: String
+  date: String
+  year: String
+}
+
+schema {
+  query: Query
+}
