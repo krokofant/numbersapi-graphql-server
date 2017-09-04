@@ -1,5 +1,5 @@
 import { fetchNumber } from "Utils/numbers-api"
-//import graphqlFields from "graphql-fields"
+import graphqlFields from "graphql-fields"
 
 const Query = {
   async number(root, { number }, _, info) {
