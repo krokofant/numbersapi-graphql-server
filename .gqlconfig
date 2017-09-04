@@ -1,5 +1,5 @@
  {
    schema: {
-     files: 'src/schemas/**/*.gql'
+     files: 'src/schema/**/*.gql'
    }
  }
